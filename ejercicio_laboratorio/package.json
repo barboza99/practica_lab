@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "ejercicio de practicas",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "angel",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}

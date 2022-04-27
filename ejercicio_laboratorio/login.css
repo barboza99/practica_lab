@@ -1,0 +1,93 @@
+header {
+    font-size: 22px;
+}
+
+body, div {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("./img/background.jpg");
+    background-size: cover;
+}
+
+#nav {
+    height: 80px;
+    background: linear-gradient(rgb(79, 151, 85,0.2), rgba(47, 79, 79, 0.6));
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0%;
+}
+
+#nav li {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    list-style: none;
+    padding: 8px 12px;
+}
+
+#nav li i {
+    color: #B1DD6A;
+    width: 26px;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav li:hover{
+    background-color: rgba(121, 165,132, 0.8);
+    border-radius: 6px;
+}
+
+.div-titulo {
+    justify-content: center;
+    display: flex;
+}
+
+.div-titulo h3 {
+    color: #fff;
+    font-size: 22px;
+}
+
+.div-form {
+    justify-content: center;
+    display: flex;
+}
+
+.div-form form {
+    border:  3px solid #B1DD6A;
+    border-radius: 6px;
+    background-color: rgba(226, 226, 222, 0.2);
+    padding: 20px 15px;
+}
+
+.div-form form input {
+    width: 500px;
+    height: 40px;
+    background-color: rgba(222, 216, 132, 0.3);
+    color: #ffff;
+    border-color: #B1DD6A;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.div-form form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.div-form form button{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 130px;
+    height: 28px;
+    background-color: rgba(162, 241, 148, 0.7);
+    font-size: 18px;
+    color: #ffff;
+}
